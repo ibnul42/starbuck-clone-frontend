@@ -22,6 +22,7 @@
 
 .left-right-section {
     display: flex;
+    margin-bottom: 25px;
 }
 
 .left-right-section .text {
@@ -70,7 +71,121 @@
     cursor: pointer;
 }
 
-.text .cta:hover {
+.text .cta:hover, .cta:hover {
     background-color: #1e39323a;
     padding: 8px 20px;
+}
+
+.happy .text {
+    background-color: #f2f0eb;
+}
+
+.happy .text h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: #1e3932;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.happy .text h3 {
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    text-align: center;
+    color: #1e3932;
+    padding: 0 130px;
+}
+
+.chill .text h1 {
+    color: #1e3932;
+    letter-spacing: 8px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    text-align: center;
+}
+
+.chill .text h3 {
+    color: #1e3932;
+    text-align: center!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    padding: 0 130px;
+}
+
+.building-card {
+    display: flex;
+}
+
+.building-card .left-section, .building-card .right-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.building-card .left-section {
+    margin-right: 10px;
+    background-color: #d4e9e2;
+}
+
+.building-card .right-section {
+    margin-left: 10px;
+    background-color: #d4e9e2;
+}
+
+.building-card .left-section .image img, .building-card .right-section .image img{
+    width: 100%;
+}
+
+.left-section .text h1, .right-section .text h1, .aira-now .text h1 {
+    color: #1e3932;
+    font-size: 24px;
+    text-align: center!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+}
+
+.left-section .text h3, .right-section .text h3, .aira-now .text h3 {
+    color: #1e3932;
+    font-size: 19px;
+    text-align: center!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.left-section .text, .right-section .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-section .text .cta, .right-section .text .cta{
+    margin: auto;
+}
+
+.aira-now {
+    margin-top: 25px;
+}
+
+.notice {
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: #000000;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    margin: 40px 0;
 }
